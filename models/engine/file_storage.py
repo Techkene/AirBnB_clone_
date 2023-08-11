@@ -37,7 +37,7 @@ class FileStorage:
 
         classes = {
                     'BaseModel': BaseModel, 'User': User, 'place': Place,
-                    'State': State, 'City':City, 'Amenity': Amenity,
+                    'State': State, 'City': City, 'Amenity': Amenity,
                     'Review': Review
                   }
         try:

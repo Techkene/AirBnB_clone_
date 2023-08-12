@@ -51,5 +51,6 @@ class TestBaseModel(unittest.TestCase):
             self.assertEqual(d['name'], "Holberton")
             self.assertEqual(d['my_number'], 89)
 
+
 if __name__ == "__main__":
     unittest.main()

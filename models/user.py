@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ Class User, inherits from BaseModel """
-from models.base_model import BaseModel
+from base_model import BaseModel
 
 
 class User(BaseModel):
@@ -12,4 +12,4 @@ class User(BaseModel):
 
     def __init__(self, *args, **kwargs):
         """User init"""
-        Super().__init__(*args, **kwargs)
+        super().__init__(*args, **kwargs)

@@ -3,7 +3,7 @@
 
 from datetime import datetime
 import inspect
-from ..models.User import User
+from AirBnB_clone.models.user import User
 from models.base_model import BaseModel
 import pep8
 import unittest
